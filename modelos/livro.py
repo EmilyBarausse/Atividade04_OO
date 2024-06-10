@@ -47,8 +47,8 @@ class Livro:
         for livro in livros_disponiveis:
             print(f'Livros disponíveis em {ano}: {livro}')
             
-livro1=Livro('"Orgulho e Preconceito"', 'Jane Austen', '1813' )
-livro2=Livro('"A menina que roubava livros"', 'Markus Zusak', '2005' )
+livro1=Livro('"Orgulho e Preconceito"', 'Jane Austen', 1813 )
+livro2=Livro('"A menina que roubava livros"', 'Markus Zusak', 2005 )
 livro3=Livro('"O código da Vinci"','Dan Brown',2013)
 
 Livro.livros=[livro1,livro2,livro3]

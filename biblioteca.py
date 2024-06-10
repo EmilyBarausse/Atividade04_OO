@@ -3,9 +3,11 @@ from modelos.livro import Livro
 
 #questão 06
 #emprestar livro
-livro_biblioteca=Livro('"Orgulho e Preconceito"', 'Jane Austen', '1813' )
-print(f'Antes de emprestar (biblioteca: Livro disponível? {livro_biblioteca.disponivel})')
+livro_biblioteca=Livro('"Orgulho e Preconceito"', 'Jane Austen', 1813 )
+print(f'Antes de emprestar (biblioteca): Livro disponível? {livro_biblioteca.disponivel}')
 livro_biblioteca.emprestar_livro()
-print(f'Antes de emprestar (biblioteca: Livro disponível? {livro_biblioteca.disponivel})')
+print(f'Antes de emprestar (biblioteca): Livro disponível? {livro_biblioteca.disponivel}')
 
 #questão 07
+ano_especifico=2005
+Livro.verificar_disponibilidade(ano_especifico)
